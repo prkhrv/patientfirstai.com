@@ -1,7 +1,7 @@
 body {
-  margin-left: auto;
+  margin: auto;
   line-height: normal;
-  margin-top: auto;
+  max-width: 1440px;
 }
 
 :root {
