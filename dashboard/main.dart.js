@@ -45694,22 +45694,20 @@ p.sl(0,0)
 o=q.fx
 o.sl(0,0)
 n=q.cx
-m=n.length
-if(m===0)l="null"
-else{l=J.a3(n[m-1],"_id")
-q.id.sl(0,l)}n=q.dy
-m=n.length
-if(m===0)k="null"
-else{k=J.a3(n[m-1],"_id")
-q.k1.sl(0,k)}n=t.N
+if(n.length===0)m="null"
+else{m=J.a3(n[0],"_id")
+q.id.sl(0,m)}n=q.dy
+if(n.length===0)l="null"
+else{l=J.a3(n[0],"_id")
+q.k1.sl(0,l)}n=t.N
 s=2
-return A.O(A.apF(A.S(["workflow_id","650df8665297807189165d24","record_id",l,"consent_form_id",k],n,n),"/check/compliance"),$async$tw)
-case 2:j=b
-n=J.ak(j)
-if(n.h(j,"success")){m=t.z
-if(J.bw(n.h(j,"results"))===0){q.k3=A.de(q.k4,!0,m)
+return A.O(A.apF(A.S(["workflow_id","650df8665297807189165d24","record_id",m,"consent_form_id",l],n,n),"/check/compliance"),$async$tw)
+case 2:k=b
+n=J.ak(k)
+if(n.h(k,"success")){j=t.z
+if(J.bw(n.h(k,"results"))===0){q.k3=A.de(q.k4,!0,j)
 p.sl(0,0)
-o.sl(0,7)}else q.k3=A.de(q.alE(n.h(j,"results")),!0,m)
+o.sl(0,7)}else q.k3=A.de(q.alE(n.h(k,"results")),!0,j)
 q.IT()
 q.IN()
 i.sl(0,!1)}else{q.k3=A.de(q.k4,!0,t.z)
@@ -45718,7 +45716,7 @@ o.sl(0,7)
 q.IT()
 q.IN()
 i.sl(0,!1)
-A.qp(B.Kd,"Error",B.fl,n.h(j,"message"))}return A.K(null,r)}})
+A.qp(B.Kd,"Error",B.fl,n.h(k,"message"))}return A.K(null,r)}})
 return A.L($async$tw,r)},
 alE(a){var s,r,q,p,o="vaccination_name",n=[]
 for(s=J.ak(a),r=t.N,q=t.z,p=0;p<s.gt(a);++p)n.push(A.S([o,this.Wz(J.a3(s.h(a,p),o),J.a3(s.h(a,p),"dose_number")),"value",J.a3(s.h(a,p),"value"),"is_compliant",this.W7(J.a3(s.h(a,p),"response")),"field_type",this.Wa(J.a3(s.h(a,p),o)),"notes",J.a3(s.h(a,p),"notes")],r,q))
