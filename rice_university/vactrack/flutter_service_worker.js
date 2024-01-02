@@ -120,7 +120,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ce8f1eed051e5b5fc59506a30b9b531f
 "assets/assets/images/Rice_University.png": "f5af5693190b2bd652f4e9a311c03797",
 "assets/FontManifest.json": "9729e97b095e28d0d85f7f009c4e45e1",
 "assets/fonts/MaterialIcons-Regular.otf": "b24da089419efdfcfbebe808b3f620b6",
-"assets/NOTICES": "ff308f8323738aed08b94e29ff44c607",
+"assets/NOTICES": "8d0211e0a1b0c4af18f81d69c954a57a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
 "assets/packages/eva_icons_flutter/lib/fonts/Eva-Icons.ttf": "b3cfd6832181cbaa3c98988c49d34641",
 "assets/packages/fluentui_system_icons/fonts/FluentSystemIcons-Filled.ttf": "4f1d20468024d4d7d3533cf842e45f48",
@@ -437,11 +437,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "ce8f1eed051e5b5fc59506a30b9b531f
 "icons/Icon-512.png": "71292fe8b8a6b864b83c0e335706c498",
 "icons/Icon-maskable-192.png": "7b83bd1405972118628b7d131e9de446",
 "icons/Icon-maskable-512.png": "71292fe8b8a6b864b83c0e335706c498",
-"index.html": "90c884f91a357eafcd26fc3909cc8d0e",
-"/": "90c884f91a357eafcd26fc3909cc8d0e",
-"main.dart.js": "af7f34576ba77211ac98ed5e68c28b6b",
+"index.html": "f9885ad7a0be0c20388db3afd2f67f1b",
+"/": "f9885ad7a0be0c20388db3afd2f67f1b",
+"main.dart.js": "2968715d37fa48e0eb8928971c8b6981",
 "manifest.json": "558be98f8f23cf990e3153ba7916eed6",
-"version.json": "c65d2604b600ac1ebeb5a818d68c938e"};
+"version.json": "0f051206681715d65e3fa30273da0fc0"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
