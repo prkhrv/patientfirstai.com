@@ -47679,13 +47679,14 @@ m=s.w.h(0,m)
 m=m==null?r:m.h(0,"name")
 return A.bV(r,new A.aJ(B.fA,A.bD(A.a([q,o,n,l,A.c7(A.by(s.r+"_"+A.f(m),r,r,r,r,r,r,r),1)],p),B.m,B.r,B.j),r),B.o,B.ms,r,r,60,r,r,r,r)}}
 A.afQ.prototype={
-$0(){var s=0,r=A.L(t.H),q=this,p
+$0(){var s=0,r=A.L(t.H),q=this,p,o
 var $async$$0=A.M(function(a,b){if(a===1)return A.I(b,r)
-while(true)switch(s){case 0:s=2
-return A.H(A.YQ(q.a.d),$async$$0)
-case 2:p=b
-if(p==="null")A.dy(B.ai,null,"Error",B.dc,"File not found")
-else $.awL().np("open",[p])
+while(true)switch(s){case 0:p=q.a.d
+s=2
+return A.H(A.YQ(p),$async$$0)
+case 2:o=b
+if(o==="null"||p==="null")A.dy(B.ai,null,"Error",B.dc,"File not found")
+else $.awL().np("open",[o])
 return A.J(null,r)}})
 return A.K($async$$0,r)},
 $S:9}
@@ -47730,13 +47731,14 @@ if(s.h(a,"success")){A.dy(B.d5,null,"Success",B.nt,s.h(a,"message"))
 this.a.fx.$1(s.h(a,"userId"))}}},
 $S:28}
 A.a9S.prototype={
-$0(){var s=0,r=A.L(t.H),q=this,p
+$0(){var s=0,r=A.L(t.H),q=this,p,o
 var $async$$0=A.M(function(a,b){if(a===1)return A.I(b,r)
-while(true)switch(s){case 0:s=2
-return A.H(A.YQ(q.a.z),$async$$0)
-case 2:p=b
-if(p==="null")A.dy(B.ai,null,"Error",B.dc,"File not found")
-else $.awL().np("open",[p])
+while(true)switch(s){case 0:p=q.a.z
+s=2
+return A.H(A.YQ(p),$async$$0)
+case 2:o=b
+if(o==="null"||p==="null")A.dy(B.ai,null,"Error",B.dc,"File not found")
+else $.awL().np("open",[o])
 return A.J(null,r)}})
 return A.K($async$$0,r)},
 $S:9}
