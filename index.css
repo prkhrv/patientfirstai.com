@@ -1677,6 +1677,17 @@
   color: var(--black);
   font-family: var(--paragraph-paragraph-lg);
 }
+
+.dummy-parent {
+  position: absolute;
+  bottom: -678.22px;
+  left: 20px;
+  width: 1440px;
+  height: 4452.22px;
+  font-size: var(--link-link-sm-size);
+  color: var(--black);
+  font-family: var(--paragraph-paragraph-lg);
+}
 .homepage-a-child4 {
   position: absolute;
   top: 3139.5px;
