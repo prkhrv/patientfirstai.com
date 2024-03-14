@@ -118,7 +118,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "a9c0f42bade6d6c4153c6b5c1d8248c6
 "assets/assets/icons/logo.png": "a59a706a3d64f567722632cf639f5ae9",
 "assets/assets/images/Harvard_University.png": "988e4ff6c1a70a9ec719061e0d85b7bc",
 "assets/assets/images/Rice_University.png": "f5af5693190b2bd652f4e9a311c03797",
-"assets/assets/privacypolicy/privacy-policy.pdf": "59099393900d517d600318dc61ad6398",
+"assets/assets/privacypolicy/privacy-policy.pdf": "3c8591dab6999ecb29ea132e0897f4d6",
 "assets/FontManifest.json": "9729e97b095e28d0d85f7f009c4e45e1",
 "assets/fonts/MaterialIcons-Regular.otf": "b24da089419efdfcfbebe808b3f620b6",
 "assets/NOTICES": "8d0211e0a1b0c4af18f81d69c954a57a",
@@ -438,9 +438,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "a9c0f42bade6d6c4153c6b5c1d8248c6
 "icons/Icon-512.png": "71292fe8b8a6b864b83c0e335706c498",
 "icons/Icon-maskable-192.png": "7b83bd1405972118628b7d131e9de446",
 "icons/Icon-maskable-512.png": "71292fe8b8a6b864b83c0e335706c498",
-"index.html": "f5bcf03a9f30a5a91f6bd34a19c84d3a",
-"/": "f5bcf03a9f30a5a91f6bd34a19c84d3a",
-"main.dart.js": "baa3ab5fa4dce05229fec559aad548ab",
+"index.html": "7b87bc2f721d0c012416bbf43baf2348",
+"/": "7b87bc2f721d0c012416bbf43baf2348",
+"main.dart.js": "987e97d0f0a41fc6054e8a72533739f5",
 "manifest.json": "558be98f8f23cf990e3153ba7916eed6",
 "version.json": "1202728ad63adf652a86e02cea4bbeb9"};
 // The application shell files that are downloaded before a service worker can
