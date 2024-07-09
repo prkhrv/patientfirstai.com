@@ -134,4 +134,5 @@ footer {
 .footer_sticky_left p,
 .footer_sticky_right a {
   margin: 0; /* Remove default margin */
+  color: #ffffff;
 }
