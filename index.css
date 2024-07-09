@@ -175,6 +175,7 @@ footer {
   .footer_sticky_left p,
   .footer_sticky_right a {
     text-align: center; /* Center text on smaller screens */
+    color: black;
   }
 }
 
@@ -216,5 +217,6 @@ footer {
   .footer_sticky_left p,
   .footer_sticky_right a {
     text-align: center; /* Center text on smaller screens */
+    color: black;
   }
 }
