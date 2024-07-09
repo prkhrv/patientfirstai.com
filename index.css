@@ -98,13 +98,13 @@ footer {
 }
 
 .playstore_container {
-  left: 10rem; /* Align to the left */
-  margin-left: 20rem;
+  left: 3rem; /* Align to the left */
+  margin-left: 1rem;
 }
 
 .appstore_container {
-  right: 10rem; /* Align to the right */
-  margin-right: 20rem;
+  right: 3rem; /* Align to the right */
+  margin-right: 1rem;
 }
 
 .playstore_container img,
@@ -135,4 +135,86 @@ footer {
 .footer_sticky_right a {
   margin: 0; /* Remove default margin */
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .nav img {
+    height: 2.5rem; /* Adjust height for smaller screens */
+  }
+
+  .footer-top {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+  .playstore_container,
+  .appstore_container {
+    position: relative; /* Change to relative to allow stacking */
+    top: 0; /* Reset top position */
+    left: 0; /* Reset left position */
+    right: 0; /* Reset right position */
+    margin: 2rem 0; /* Add margin between buttons */
+  }
+
+  .playstore_container img,
+  .appstore_container img {
+    max-width: 12rem; /* Adjust width for smaller screens */
+    height: auto;
+  }
+
+  .footer_sticky_nav {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+  .footer_sticky_left,
+  .footer_sticky_right {
+    margin: 0.5rem 0; /* Adjust margin for smaller screens */
+  }
+
+  .footer_sticky_left p,
+  .footer_sticky_right a {
+    text-align: center; /* Center text on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .nav img {
+    height: 2.5rem; /* Adjust height for smaller screens */
+  }
+
+  .footer-top {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+  .playstore_container,
+  .appstore_container {
+    position: relative; /* Change to relative to allow stacking */
+    top: 0; /* Reset top position */
+    left: 0; /* Reset left position */
+    right: 0; /* Reset right position */
+    margin: 2rem 0; /* Add margin between buttons */
+  }
+
+  .playstore_container img,
+  .appstore_container img {
+    max-width: 12rem; /* Adjust width for smaller screens */
+    height: auto;
+  }
+
+  .footer_sticky_nav {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+  .footer_sticky_left,
+  .footer_sticky_right {
+    margin: 0.5rem 0; /* Adjust margin for smaller screens */
+  }
+
+  .footer_sticky_left p,
+  .footer_sticky_right a {
+    text-align: center; /* Center text on smaller screens */
+  }
 }
